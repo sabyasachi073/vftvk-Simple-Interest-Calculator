@@ -1,4 +1,60 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
 
+    padding: 0;
+}
+
+h1{
+    color: grey;
+    font-weight: 800;
+}
+
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 475px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.innerdiv{
+    margin: 0 5em;
+    margin-bottom: 1em;
+    line-height: 32px;
+}
+
+input, select{
+    position: absolute;
+    left: 345px;
+    margin-top: 7px;
+}
+
+#ratepcnt{
+    position: relative;;
+    left: 160px;
+}
+
+label{
+    margin-top: 0;
+    vertical-align: top;
+}
+
+#result{
+    margin: 5px 0;
+    line-height: normal;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
