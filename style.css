@@ -2,7 +2,6 @@ body{
     background-color: black;
     color: white;
     font-family: Arial;
-
     padding: 0;
 }
 
@@ -18,6 +17,7 @@ h1{
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+    position: relative;
 }
 
 .innerdiv{
@@ -28,7 +28,7 @@ h1{
 
 input, select{
     position: absolute;
-    left: 345px;
+    left: 215px;
     margin-top: 7px;
 }
 
